@@ -10,6 +10,23 @@
 
 ---
 
+## AI 도우미로 설치하기 (Claude Code · Codex)
+
+터미널에서 Claude Code나 Codex를 쓸 수 있으면, 아래 문장을 **그대로 붙여 넣으세요.** AI가 [AGENTS.md](AGENTS.md)의 순서대로 저장소 만들기, 설정, 첫 알림 확인까지 진행하고, 필요한 것(저장소 이름, 관심 분야, 키워드)을 하나씩 물어봅니다.
+
+```
+https://raw.githubusercontent.com/Albatrosses-reply/journal-alert/main/AGENTS.md 를 읽고,
+그 안내대로 내 GitHub 계정에 저널 신간 알림을 설치해 줘.
+나는 프로그래밍을 잘 모르니까 단계마다 쉽게 설명하고, 정할 것은 하나씩 물어봐 줘.
+```
+
+- 미리 필요한 것: GitHub 계정, [GitHub CLI](https://cli.github.com) (`gh`). 없으면 AI가 설치 방법을 알려 줍니다.
+- **API 키는 AI에게 채팅으로 보내지 마세요.** AI가 알려 주는 명령(`gh secret set …`)을 직접 실행해 입력 칸에 붙여 넣으면 됩니다. Claude Code에서는 명령 앞에 `!`를 붙여 실행합니다.
+- 터미널 없이 ChatGPT·Claude 웹 채팅만 쓴다면, 이 README 주소를 주고 "웹 화면으로 설치하는 법을 단계별로 알려 줘"라고 하면 됩니다. 아래 안내와 같은 순서입니다.
+- 이 저장소를 내려받아 그 폴더에서 AI를 열면 `AGENTS.md`(Codex)·`CLAUDE.md`(Claude Code)를 자동으로 읽습니다. 기능을 고치거나 저널을 더하는 것도 그렇게 부탁하면 됩니다.
+
+---
+
 ## 설치 (10분)
 
 ### 1. GitHub 가입
