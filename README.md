@@ -8,6 +8,8 @@
 - 관심 키워드가 들어간 논문은 ⭐로 표시하고 위로 올립니다.
 - 초록이 없는 논문은 출판사 API·Semantic Scholar로 보충합니다(키를 넣은 경우).
 
+> **Obsidian 위키까지 원하면** → [llm-wiki-kit](https://github.com/Albatrosses-reply/llm-wiki-kit): Gmail 아침 메일에서 고른 논문을 ChatGPT(Codex)·Claude가 Obsidian 위키 페이지로 정리합니다(내 컴퓨터에 설치). 이 저장소는 설치 없이 GitHub에서만 도는 가벼운 알림판입니다.
+
 ---
 
 ## AI 도우미로 설치하기 (Claude Code · Codex)
